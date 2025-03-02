@@ -32,7 +32,7 @@ async function loadAllData() {
             <h5 class="card-title">${product.title}</h5>
             
             <div class="d-flex flex-row align-items-center justify-content-around">
-                <a href="#" class="btn btn-primary" onclick="addToCart('${product.image}','${product.title},'${product.price}')">Add to Cart</a>
+                <a href="#" class="btn btn-primary" onclick="addToCart('${product.image}','${product.title}','${product.price}')">Add to Cart</a>
                 <p class="m-0 p-0">Price: $${product.price}</p>
             </div>
         </div>
